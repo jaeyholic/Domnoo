@@ -4,6 +4,7 @@
     <Slider />
     <Menu />
     <CTA/>
+    <Newsletter />
     <Footer />
   </div>
 </template>
@@ -14,13 +15,15 @@ import Footer from "./components/Header-Footer/Footer";
 import Slider from "./components/Featured";
 import Menu from "./components/Menu";
 import CTA from "./components/CTA";
+import Newsletter from "./components/Newsletter";
 export default {
   components: {
     Header,
     Footer,
     Slider,
     Menu,
-    CTA
+    CTA,
+    Newsletter
   }
 };
 </script>
